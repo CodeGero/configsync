@@ -1,0 +1,46 @@
+{
+  "name": "kryptorious-configsync",
+  "version": "1.0.0",
+  "description": "Sync configuration files between projects — compare, audit, and sync .env, package.json, tsconfig.json, and more",
+  "main": "bin/configsync.js",
+  "bin": {
+    "configsync": "bin/configsync.js"
+  },
+  "scripts": {
+    "test": "node bin/configsync.js audit test/fixtures"
+  },
+  "keywords": [
+    "config",
+    "sync",
+    "cli",
+    "devtools",
+    "kryptorious",
+    "configuration",
+    "env",
+    "dotenv",
+    "project-management",
+    "monorepo"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CodeGero/kryptorious-configsync"
+  },
+  "author": "Kryptorious",
+  "license": "MIT",
+  "homepage": "https://github.com/CodeGero/kryptorious-configsync#readme",
+  "bugs": {
+    "url": "https://github.com/CodeGero/kryptorious-configsync/issues"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "chalk": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ]
+}
